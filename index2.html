@@ -1,0 +1,57 @@
+<!DOCTYPE heml>
+<html1 lang="" ja">
+
+    <head>
+        <meta charset="" UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <!--cssへの接続リンク-->
+    </head>
+
+    <body>
+        <p class="title">アンケート</p>
+
+        <div class="aform">
+            <form action="result.html">
+                <p>AxiZの研修をご利用いただき、誠にありがとうございます。</p>
+                <p>以下の内容の記入および送信をして頂けると幸いです。</p>
+
+                <p>会社名<span class="pint">必須</span></p>
+                <input type="text" size=50 name="company" required placeholder="例）株式外車テクノコア"><br>
+
+                <p>お名前<span class="pint">必須</span></p>
+                <input type="text" size=50 name="name" required placeholder="例）手久野　興亜"><br>
+
+                <p>メールアドレス</p>
+                <input type="text" size=50 name="company" required placeholder="例）example@axiz.jp"><br>
+
+                <p>年齢</p>
+                <input type="number" name="age" placeholder="23"><br>
+
+                <p>受講コース</p>
+                <label><input type="radio" name="cource" value="java">Java</label>
+                <label><input type="radio" name="cource" value="infra">インフラ</label><br>
+
+                <p>会場</p>
+                <input type="text" name="place" placeholder="日本橋A教室"><br>
+
+                <p>詳しく学びたい内容（複数回答可）</p>
+                <label><input type="checkbox" name="bisness" value="bisness">ビジネスマナー</label><br>
+                <label><input type="checkbox" name="html" value="htmlcss">HTML/CSS</label><br>
+                <label><input type="checkbox" name="javascript" value="javascript">JavaScript</label><br>
+                <label><input type="checkbox" name="java" value="java">Java</label><br>
+                <label><input type="checkbox" name="db" value="db">データベース</label><br>
+                <label><input type="checkbox" name="linux" value="linux">Linux</label><br>
+
+                <p>ご意見</p>
+                <textarea name="free" rows="5" cols="50" placeholder="自由にご記入ください。"></textarea><br>
+
+                <br>
+               <button type="submit">送信する</button>
+
+            </form>
+        </div>
+
+        <p class="undertitle">Copyright(C) AxiZ</p>
+
+    </body>
+</html1>

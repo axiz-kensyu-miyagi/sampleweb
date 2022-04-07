@@ -1,0 +1,48 @@
+<!DOCTYPE heml>
+<html1 lang="" ja">
+
+    <head>
+        <meta charset="" UTF-8">
+        <link rel="stylesheet" href="css/recipe.css">
+        <!--cssへの接続リンク-->
+    </head>
+
+    <body>
+        <div class="qform">
+            <h1>質問・感想フォーム</h1>
+
+            <div class="iform">
+                <form action="result.html">
+
+                    <p>氏名</p>
+                    <input type="text" name="name1"><br>
+
+                    <p>性別</p>
+                    <label><input type="radio" name="sei" value="mele">男</label>
+                    <label><input type="radio" name="sei" value="mele">女<br></label>
+
+                    <p>年齢</p>
+                    <input type="number" name="age" placeholder="10代"><br>
+
+                    <p>今後見てみたレシピ</p>
+                    <legend>    <label><input type="checkbox" name="wa" value="wa">和食</label>
+                        <label><input type="checkbox" name="tyu" value="tyu">中華</label>
+                        <label><input type="checkbox" name="you" value="you">洋食</label>
+                        <label><input type="checkbox" name="itari" value="itari">イタリアン</label>
+                        <label><input type="checkbox" name="sweet" value="sweet">スイーツ</label>
+                        <label><input type="checkbox" name="hoka" value="hoka">その他</label><br>
+                    </legend>
+                    
+                    <p>自由コメント欄</p>
+                    <textarea name="free" rows="5" cols="50" placeholder="自由に意見を記述してください"></textarea><br>
+
+                    <button type="submit">送信</button>
+                    <button type="reset">取り消し</button>
+
+                </form>
+            </div>
+
+        </div>
+
+    </body>
+</html1>
