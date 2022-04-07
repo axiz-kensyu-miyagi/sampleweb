@@ -12,41 +12,52 @@
 
         <div class="aform">
             <form action="result.html">
-                <p>AxiZの研修をご利用いただき、誠にありがとうございます。</p>
-                <p>以下の内容の記入および送信をして頂けると幸いです。</p>
+                <p id="top">AxiZの研修をご利用いただき、誠にありがとうございます。<br>
+                    以下の内容の記入および送信をして頂けると幸いです。</p>
 
                 <p>会社名<span class="pint">必須</span></p>
-                <input type="text" size=50 name="company" required placeholder="例）株式外車テクノコア"><br>
+                <input type="text" name="company" required
+                    placeholder="例）株式外車テクノコア" class="waku"><br>
 
                 <p>お名前<span class="pint">必須</span></p>
-                <input type="text" size=50 name="name" required placeholder="例）手久野　興亜"><br>
+                <input type="text" name="name" required placeholder="例）手久野　興亜"
+                    class="waku"><br>
+
 
                 <p>メールアドレス</p>
-                <input type="text" size=50 name="company" required placeholder="例）example@axiz.jp"><br>
+                <input type="text" name="company" required
+                    placeholder="例)example@axiz.jp" class="waku"><br>
 
                 <p>年齢</p>
-                <input type="number" name="age" placeholder="23"><br>
+                <input type="number" name="age" placeholder="23" class="waku1"><br>
 
                 <p>受講コース</p>
                 <label><input type="radio" name="cource" value="java">Java</label>
                 <label><input type="radio" name="cource" value="infra">インフラ</label><br>
 
-                <p>会場</p>
-                <input type="text" name="place" placeholder="日本橋A教室"><br>
+                <br>
+                <label for="place">会場</label><br>
+                <select id="job" name="job" class="waku">
+                    <option value="1" selected>日本橋A教室</option>
+                    <option value="1" >日本橋A教室</option>
+                    <option value="2">沖縄教室</option>
+                    <option value="3">北海道教室</option>
+                </select>
 
                 <p>詳しく学びたい内容（複数回答可）</p>
-                <label><input type="checkbox" name="bisness" value="bisness">ビジネスマナー</label><br>
-                <label><input type="checkbox" name="html" value="htmlcss">HTML/CSS</label><br>
-                <label><input type="checkbox" name="javascript" value="javascript">JavaScript</label><br>
-                <label><input type="checkbox" name="java" value="java">Java</label><br>
-                <label><input type="checkbox" name="db" value="db">データベース</label><br>
-                <label><input type="checkbox" name="linux" value="linux">Linux</label><br>
+                <label><input type="checkbox" name="kougi" value="bisness">ビジネスマナー</label><br>
+                <label><input type="checkbox" name="kougi" value="htmlcss">HTML/CSS</label><br>
+                <label><input type="checkbox" name="kougi" value="javascript">JavaScript</label><br>
+                <label><input type="checkbox" name="kougi" value="java">Java</label><br>
+                <label><input type="checkbox" name="kougi" value="db">データベース</label><br>
+                <label><input type="checkbox" name="kougi" value="linux">Linux</label><br>
 
                 <p>ご意見</p>
-                <textarea name="free" rows="5" cols="50" placeholder="自由にご記入ください。"></textarea><br>
+                <textarea name="free" placeholder="自由にご記入ください。" class="waku2"></textarea><br>
+                <!-- style の前に適用したコード　rows="5" cols="55" -->
 
                 <br>
-               <button type="submit">送信する</button>
+                <button type="submit" class="waku3">送信する</button>
 
             </form>
         </div>
