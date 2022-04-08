@@ -1,7 +1,7 @@
 body {
   text-align: center;
-  background-image: url(../images/haikeiimg2.png);
-  background-size: cover;
+  /*background-image: url(../images/haikeiimg2.png);*/
+  /*background-size: cover;*/
 }
 
 .home {
@@ -16,7 +16,6 @@ body {
   background-color: orange;
   padding: 10px;
   border-radius: 10px;
-
 }
 
 
@@ -25,13 +24,29 @@ body {
 .plofileimg {
   width: 200px;
   height: auto;
+  padding: 10px
 }
 
 .plofile {
   text-align: center;
+  background-image: url(../images/haikeiimg2.png);
+  */ background-size: cover;
+  */
+}
+
+.plofilenaiyou {
+  background-image: url(../images/haikeiimg2.png);
+  background-size: cover;
 }
 
 /*plofilehobby.html*/
+
+.syumi {
+  padding-top: 20px;
+  background-image: url(../images/haikeiimg3.jpg);
+  background-size: cover;
+}
+
 .oil,
 .pot {
   border-radius: 60px;
@@ -52,4 +67,9 @@ table {
 th,
 td {
   border: solid 2px pink;
+}
+
+.keirekiwaku {
+  background-image: url(../images/haikeiimg4.jpg);
+  background: rgba(0, 100, 250, 5%);
 }
