@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  background-image: url(../images/haikeiimg2.png);
+  background-size: cover;
+}
+
+.home {
+  background-color: pink;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.keireki,
+.hobby {
+  font-size: 20px;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+
+/*plofilehome.html*/
+
+.plofileimg {
+  width: 200px;
+  height: auto;
+}
+
+.plofile {
+  text-align: center;
+}
+
+/*plofilehobby.html*/
+.oil,
+.pot {
+  border-radius: 60px;
+}
+
+.cation {
+  color: red;
+}
+
+
+/*plofilekeireki.html*/
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 5x pink;
+}
+
+th,
+td {
+  border: solid 2px pink;
+}
